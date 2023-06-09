@@ -1,0 +1,557 @@
+
+
+@media screen and (max-width: 767px) {
+  .animate-gradient-text {
+    letter-spacing: 2px;
+
+    margin: 0px 0px 60px 0px;
+
+    font-family: 'Black Bones Personal Use', sans-serif;
+
+    color: #fc0;
+
+
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+
+    letter-spacing: 5px;text-align:center;
+
+
+  margin-bottom: 50px;
+    font-size: 35px;
+
+  }
+  .about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .life {
+    border: 2px dashed #ffc600;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5% 5% 5% 5%;
+    max-width: 90%;
+    height: auto;
+  }
+
+
+  .image-container {
+    flex: 1;
+  }
+
+  .text-container {
+    flex: 1;
+  }
+
+  .the {
+    margin-top: 30px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .njma {
+    font-family: "Black Bones Personal Use", sans-serif;
+    color: white;
+
+    font-size: 25px;
+    margin: 30px 0px;
+
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+
+  .best {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 0 30px 0 0;
+  }
+
+  .bbest {
+    padding: 12px 15px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background: #444444;
+    border-radius: 25px 0px 25px 0px;
+    margin: 0 15px 0 0 ;
+    transition: 0.1s;
+    letter-spacing: 2px;
+  }
+
+  .bbest:focus {
+    outline: none;
+  }
+
+  .hovera:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(247, 30, 30);
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hoverf:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(30, 56, 247);
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hovern:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: green;
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hoverj:hover {
+    transition: 0.3s;
+    color: rgb(107, 107, 107);
+    background: yellow;
+
+    transform: scale(1.1) rotate(0deg);
+  }
+
+   .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-86 {
+    all: unset;
+
+    font-size: x-large;
+    background: red;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 10px 50px;
+    margin: 35px 25%;
+    text-decoration: none;
+    font-family: "Black Bones Personal Use", sans-serif;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 0px 1px #111;
+    background: rgb(50, 58, 77);
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86::after,
+  .button-86::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all 0.3s;
+  }
+
+  .button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86::after {
+    transform: translate(0px, 0px);
+    width: 20px;
+    height: 20px;
+    background: #ffc600;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50% 15%;
+  }
+
+  .button-86:hover::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0px;
+  }
+
+  .button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+    background: #ffc600;
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 0%);
+  }
+  .button-86:hover {
+    transform: scale(1.05) rotate(0deg);
+    color: #000;
+    font-weight: bold;
+    transition: 0.25s;
+  }
+
+  .notes {
+    width: 100px;
+    height: 100px;
+
+    .note_list {
+      position: relative;
+
+      li {
+        text-align: center;
+        display: none;
+        margin-left: 20%;
+
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+  .even {
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+  }
+  .sous-icon {
+    font-weight: bold;
+    font-family: "Black Bones Personal Use", sans-serif;
+
+    font-size: medium;
+    margin-left: -25px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  .bestskil {
+    margin: 25px 0px;
+    text-align: center;
+
+    font-size: xx-large;
+  }
+
+  .bsous {
+    text-decoration: none;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+    background: #ffc600;
+    border-radius: 15% 0% 15% 0%;
+
+    transform: translate(-240px, -0.5px);
+
+    transition: 5s;
+    // box-shadow: 3px 3px 0 rgb(255, 255, 255);
+    // transform: skewX(-15deg);
+  }
+  .ppp {
+    margin-top: 10%;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    line-height: 150%;
+    font-family: monospace;
+    text-align: start;
+    width: 95%;
+  }
+
+
+}
+
+@media screen and (min-width: 767px) {
+  .animate-gradient-text {
+    letter-spacing: 2px;
+
+    margin: 0px 0px 60px 0px;
+
+    font-family: 'Black Bones Personal Use', sans-serif;
+
+    color: #fc0;
+
+
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+
+    letter-spacing: 5px;text-align:center;
+
+
+  margin-bottom: 50px;
+    font-size: 35px;
+
+  }
+  .about {
+      display: flex;
+    }
+
+
+
+  .image-container {
+    flex: 1;
+  }
+
+  .text-container {
+    flex: 1;
+  }
+
+  .the {
+    margin-top: 30px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  .njma {
+    font-family: "Black Bones Personal Use", sans-serif;
+    color: white;
+
+    font-size: 25px;
+    margin: 30px 0px;
+
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  .contentabout {
+    display: flex;
+  }
+  .best {
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+  }
+
+  .bbest {
+    padding: 12px 15px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background: #444444;
+    border-radius: 25px 0px 25px 0px;
+    margin: 0 15px;
+    transition: 0.1s;
+    letter-spacing: 2px;
+  }
+
+  .bbest:focus {
+    outline: none;
+  }
+
+  .hovera:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(247, 30, 30);
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hoverf:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: rgb(30, 56, 247);
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hovern:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background: green;
+
+    transform: scale(1.1) rotate(0deg);
+  }
+  .hoverj:hover {
+    transition: 0.3s;
+    color: rgb(107, 107, 107);
+    background: yellow;
+
+    transform: scale(1.1) rotate(0deg);
+  }
+
+   .btn {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  .button-86 {
+    all: unset;
+
+    font-size: x-large;
+    background: red;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 10px 50px;
+    margin: 35px 25%;
+    text-decoration: none;
+    font-family: "Black Bones Personal Use", sans-serif;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 0px 1px #111;
+    background: rgb(50, 58, 77);
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86::after,
+  .button-86::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all 0.3s;
+  }
+
+  .button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86::after {
+    transform: translate(0px, 0px);
+    width: 20px;
+    height: 20px;
+    background: #ffc600;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50% 15%;
+  }
+
+  .button-86:hover::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0px;
+  }
+
+  .button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+    background: #ffc600;
+    border-radius: 25px 2px 25px 2px;
+  }
+
+  .button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 0%);
+  }
+  .button-86:hover {
+    transform: scale(1.05) rotate(0deg);
+    color: #000;
+    font-weight: bold;
+    transition: 0.25s;
+  }
+
+  .notes {
+    width: 100px;
+    height: 100px;
+
+    .note_list {
+      position: relative;
+
+      li {
+        text-align: center;
+        display: none;
+        margin-left: 20%;
+
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+  .even {
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+  }
+  .sous-icon {
+    font-weight: bold;
+    font-family: "Black Bones Personal Use", sans-serif;
+
+    font-size: medium;
+    margin-left: -25px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  .bestskil {
+    margin: 25px 0px;
+    text-align: center;
+    margin-left: 10px;
+
+    font-size: xx-large;
+  }
+
+  .bsous {
+    text-decoration: none;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+    background: #ffc600;
+    border-radius: 15% 0% 15% 0%;
+
+    transform: translate(-190px, -0.5px);
+
+    transition: 5s;
+    // box-shadow: 3px 3px 0 rgb(255, 255, 255);
+    // transform: skewX(-15deg);
+  }
+  .ppp {
+    margin-top: 10%;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    line-height: 150%;
+    font-family: monospace;
+    text-align: start;
+    margin-left: 100px;
+  }
+
+  .life {
+    border: 2px dashed #ffc600;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5% 5% 5% 5%;
+    width: 100%;
+    height: 100%;
+  }
+}

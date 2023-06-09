@@ -1,0 +1,225 @@
+
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: 968px) {
+  .home{
+    display: flex;
+  }
+
+  }
+  @media screen and (max-width: 767px){
+  .home{
+    display: block;
+
+   }
+.banner-image {
+  max-width: 95%;
+  height: auto;
+}
+
+  }
+  @media screen and (max-width: 320px){
+  .home{
+    display: block;
+  }
+
+
+  }
+
+  @media screen and (min-width: 767px){
+  .home{
+    display: flex;
+  }
+
+  }
+
+
+
+
+
+.image-container {
+  flex: 1;
+ }
+
+.text-container {
+  flex: 1;
+
+}
+.flok {
+  font-family: "Black Bones Personal Use", sans-serif;
+  color: rgb(54, 91, 254);
+  font-size: 35px;
+  line-height: 1;
+text-align: start;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+.flok:hover {
+  transition: 0.05s;
+  cursor: pointer;
+  color: rgb(218, 202, 60);
+  transform: scale(1.5) rotate(0deg);
+}
+.out {
+    margin: 0px 0px 40px 0px;
+  font-family: monospace;
+text-align: start;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.typed-out {
+  // border-right: 0.15em solid rgb(43, 0, 255);
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+   letter-spacing: .15em;
+  margin: 25px 0px;
+
+text-align: start;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  100% { border-color: orange }
+}
+.fsd {
+  font-family: "Black Bones Personal Use", sans-serif;
+  color: white;
+
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: start;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+   letter-spacing: .15em;
+
+text-align: start;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+
+.button-86 {
+  all: unset;
+
+  font-size: x-large;
+  background: red;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 0;
+
+  display: flex;
+
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding: 10px 50px;
+  margin: 35px 0%;
+  text-decoration: none;
+  font-family: "Black Bones Personal Use", sans-serif;
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 0px 1px #111;
+  background: rgb(50, 58, 77);
+  border-radius: 25px 2px 25px 2px;
+}
+
+.button-86::after,
+.button-86::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all 0.3s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+
+  border-radius: 25px 2px 25px 2px;
+}
+
+.button-86::after {
+  transform: translate(0px, 0px);
+  width: 20px;
+  height: 20px;
+  background: #ffc600;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50% 15%;
+}
+
+.button-86:hover::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  border-radius: 40px 0px;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+  background: #ffc600;
+  border-radius: 25px 2px 25px 2px;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 0%);
+}
+.button-86:hover {
+  transform: scale(1.05) rotate(0deg);
+  color: #000;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.txt-1{
+  font-family: monospace;
+  color: white;
+  font-size: 12px;
+  line-height: 25px;
+margin: 0 25px 0 0;
+  font-weight: bold;
+  text-align: start;
+}

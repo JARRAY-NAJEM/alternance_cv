@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.animate-gradient-text {
+  letter-spacing: 2px;
+
+  margin: 0px 0px 60px 0px;
+
+  font-family: 'Black Bones Personal Use', sans-serif;
+
+  color: #fc0;
+
+
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
+
+  letter-spacing: 5px;text-align:center;
+
+
+margin-bottom: 50px;
+  font-size: 35px;
+
+}
+h1{
+    text-align: center;
+    color: #4181ee;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+  text-align: start;
+   max-width: 250px;
+    min-height: 250px;
+    background: #252b3d;
+    padding: 10px;
+     border-radius: 3px;
+     border-color: #ffffff;
+    box-sizing: border-box;
+    color: #FFF;
+    margin:20px;
+     box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+.card:nth-child(2){
+   background: #252b3d;
+}
+.card:last-child{
+   background: #252b3d;
+}
+.card-title{
+    margin-top: 0;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+.card-content{
+font-family: monospace, 'Arial Narrow', Arial, sans-serif;
+ font-size: small;
+ font-weight: bold;
+    line-height: 1.5;
+}
+.card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #171a23;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    background-color: #171a23;
+}
+.card-btn:hover{
+   color:#ffffff;
+   background: red;
+}
+.card:nth-child(2) .card-btn:hover{
+   color:#ffffff;
+   background: #187dca;
+}
+.card:last-child .card-btn:hover{
+   color:#ffffff;
+    background: #fc0;
+}
+
+
+.logo {
+  border-radius: 50%;
+  width: 50px; /* adjust as needed */
+  height: 50px; /* adjust as needed */
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 391px) {
+
+
+
+
+
+
+
+.front__face-photo {
+  position: relative;
+  top: -60px;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #171a23;
+  background-size: 50%;
+  overflow: hidden;
+}
+
+
+
+
+
+ }
+
+
+.front__face-photo {
+  position: relative;
+  top: -60px;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px solid #171a23;
+  background-size: 50%;
+  overflow: hidden;
+}
+
+
+

@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Nunito|Lacquer');
+@font-face {
+  font-family: 'black-bones-personal-use';
+  src: url('../src/assets/fonts/Black_Bones.ttf') format('truetype');
+  /* Add more src lines for other file formats if necessary */
+
+}
+html, body { }
+body { margin: 0; font-family: monospace;
+
+  background-color: #171a23;
+  .animate-gradient-text {
+    letter-spacing: 2px;
+
+    margin: 0px 0px 60px 0px;
+
+    font-family: 'Black Bones Personal Use', sans-serif;
+
+    color: #fc0;
+
+
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+
+    letter-spacing: 5px;text-align:center;
+
+
+  margin-bottom: 50px;
+    font-size: 35px;
+
+  }
+ }
